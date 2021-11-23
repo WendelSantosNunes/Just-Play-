@@ -117,8 +117,9 @@ h2 {
   width: 397px;
   height: 102px;
 
-  position: absolute;
-  top: 63.8rem;
+  position: relative;
+  top: -7.65rem;
+  margin-bottom: -90px;
 }
 
 .legenda {
@@ -167,8 +168,9 @@ h2 {
   width: 397px;
   height: 102px;
 
-  position: absolute;
-  top: 99.8rem;
+  position: relative;
+  top: -6.6rem;
+  margin-bottom: -90px;
 }
 
 /* footer */
@@ -195,18 +197,8 @@ h3::after {
   padding: 20px;
 }
 
-@media (max-width: 1076px) {
-  .secao-noticias a div {
-    position: relative;
-    top: -7.65rem;
-  }
-  .secao-destaques a div {
-    position: relative;
-    top: -6.6rem;
-  }
-}
-
 @media (max-width: 668px) {
   .menu {
+    justify-content: center;
   }
 }
