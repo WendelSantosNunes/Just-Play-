@@ -1,0 +1,66 @@
+
+
+.teste {
+    margin: 63px auto; 
+    background-color: #fff;
+    height: 600px;
+    width: 930px;     
+}
+
+.teste h2{
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+    padding: 43px;
+}
+
+#email, #nome, button{
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    height: 80px;
+    width: 697px;
+    border-radius: 10px;
+    
+}
+
+#email:focus, #nome:focus, .teste form #password:focus{
+    background-color: blue;
+}
+
+
+.teste form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.teste form #password{
+    width: 377px;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    height: 80px;
+    border-radius: 10px;
+    /* margin-left: 117px;
+    margin-top: 10px; */
+    margin: 10px 0 25px 117px;
+}
+
+.teste input #password{
+    justify-content: left;
+}
+
+.teste button{
+    width: 260px;   
+    margin: 0 auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste button:hover{
+    background-color: blue;
+}
+ 

@@ -1,0 +1,58 @@
+
+
+.teste {
+    margin: 63px auto; 
+    background-color: #fff;
+    height: 523px;
+    width: 775px;     
+}
+
+.teste h2{
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+    padding: 43px;
+}
+
+.teste form div, .teste a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.teste form div #email:focus, .teste form div #password:focus{
+    background-color: blue;
+}
+
+#email, #password, button{
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    height: 80px;
+    width: 397px;
+    border-radius: 10px;
+}
+
+.teste a{
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.teste form div{
+    padding: 10px;
+}
+
+.teste button{
+    width: 260px;   
+    margin: 0 auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste button:hover{
+    background-color: blue;
+}
+ 
