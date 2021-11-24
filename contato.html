@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Just-Play-/style/style.css" />
-    <link rel="stylesheet" href="/Just-Play-/style/contato.css" />
-    <title>Just Play!</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/contato.css" />
+    <title>Contato</title>
   </head>
   <body>
     <header class="container menu">
@@ -27,25 +27,65 @@
 
     <hr />
 
-    <main></main>
+    <main class="main">
+        <div class="titulo">
+          <h1 id="titulo" class="">Fale Conosco!</h1>
+        </div>
+
+        <div>
+            <p id="subtitulo" class="subtitulo">Preencha o formulário abaixo e em breve responderemos sua mensagem.</p>
+            <br>
+        </div>
+
+        <form>
+
+          <fieldset class="grupo">
+
+              <div class="campo">
+                  <label class="label"><strong>Nome</strong></label><br>
+                  <input type="text" name="nome" placeholder="Nome" id="nome" required>
+              </div>
+
+              <div class="campo">
+
+                <label class="label"><strong>Email</strong></label><br>
+                <input type="email" name="email" placeholder="Email" value="" class="" required>
+
+              </div>
+
+          </fieldset>
+
+          <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Mensagem </strong></label><br>
+                <textarea rows="6" id="experiencia" name="experiencia" required></textarea>
+          </div>
+
+          <br>
+
+          <button class="botao" type="submit" onsubmit="">Enviar ⇾</button>
+
+        </form>
+
+    </main>
 
     <hr />
     <footer class="social">
       <h3>Redes Socias</h3>
       <div class="redes_social">
         <a href="#"
-          ><img src="/Just-Play-/img/icon-facebook.svg" alt="icon do facebook"
+          ><img src="img/icon-facebook.svg" alt="icon do facebook"
         /></a>
         <a href="#"
           ><img
-            src="/Just-Play-/img/icon-instagram.svg"
+            src="img/icon-instagram.svg"
             alt="icon do instagram"
         /></a>
         <a href="#"
-          ><img src="/Just-Play-/img/icon-twitter.svg" alt="icon do twitter"
+          ><img src="img/icon-twitter.svg" alt="icon do twitter"
         /></a>
         <a href="#"
-          ><img src="/Just-Play-/img/icon_github.svg" alt="icon do github"
+          ><img src="img/icon_github.svg" alt="icon do github"
         /></a>
       </div>
       <p>Just Play! - Todos os direitos reservados</p>
