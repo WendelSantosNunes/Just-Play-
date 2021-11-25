@@ -57,7 +57,7 @@ img {
   padding: 0.9375rem;
 }
 
-.menu nav ul li:hover {
+.menu nav ul li a:hover {
   color: blue;
   font-size: 1.3rem;
   cursor: pointer;
