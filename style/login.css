@@ -68,9 +68,8 @@ button {
   background-color: blue;
 }
 
-@media(max-width: 1088px){
-  .teste{
-      width: 100%; 
+@media (max-width: 1088px) {
+  .teste {
+    width: 100%;
   }
-  
 }

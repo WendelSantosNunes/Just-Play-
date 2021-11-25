@@ -67,37 +67,7 @@ img {
   padding: 0.9375rem;
 }
 
-.menu nav ul li:hover {
-  color: blue;
-  font-size: 1.3rem;
-  cursor: pointer;
-}
-
-/* Header */
-
-.menu {
-  padding: 1.6875rem 0 1.6875rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.menu-logo {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.menu-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.menu-nav ul li {
-  padding: 0.9375rem;
-}
-
-.menu nav ul li:hover {
+.menu nav ul li a:hover {
   color: blue;
   font-size: 1.3rem;
   cursor: pointer;
@@ -119,9 +89,9 @@ main #area .noticia {
   /* margin-top: 10px; */
 }
 
-main #area .noticia img {
-  /* border: 1px solid blue; */
-}
+/* main #area .noticia img { */
+/* border: 1px solid blue; */
+/* } */
 
 main #area .noticia ul {
   /* width: 100%;display: flex; */
@@ -172,9 +142,9 @@ main #area .mais-lidas ul li img {
   width: 100%;
 }
 
-main #area .mais-lidas ul li h3 {
-  /* margin-left: 10px; */
-}
+/* main #area .mais-lidas ul li h3 { */
+/* margin-left: 10px; */
+/* } */
 
 main #area .mais-lidas ul li ul li {
   /* margin-left: 10px; */
