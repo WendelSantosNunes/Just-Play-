@@ -1,6 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.selecionado::after {
+  content: '';
+  display: block;
+
+  margin: 0.1875rem auto 0 auto;
+  height: 0.21875rem;
+  width: 2.7rem;
+
+  background: #fff;
 }
 
 #titulo {
@@ -12,26 +23,23 @@
 #subtitulo {
   font-family: Roboto;
   color: #fff;
-  margin-left: 10%;
   width: 977px;
-  height: 50px;
   left: auto;
   top: 140px;
 }
 
-.titulo{
+.titulo {
   background: white;
   border-radius: 10px;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 10px 0 10px 0;
+  padding: 10px;
 }
 
 fieldset {
   border: 0;
 }
 
-main{
+main {
   font-family: Roboto;
   font-size: 1em;
   margin-left: 15%;
@@ -40,59 +48,60 @@ main{
   justify-content: center;
 }
 
-input, textarea,button{
+input,
+textarea,
+button {
   border-radius: 5px;
 }
 
-input, textarea{
+input,
+textarea {
   width: 60%;
 }
 
-
-.campo{
+.campo {
   margin-bottom: 1em;
-
 }
 
-.campo label{
+.campo label {
   margin-bottom: 0.2em;
-  margin-left: 10%;
 
   color: white;
   display: block;
 }
 
-
-.campo input[type="text"],.campo input[type="email"], .campo textarea{
-  padding: 0.2em;
+.campo input[type='text'],
+.campo input[type='email'],
+.campo textarea {
+  padding: 10px;
   border: 1px solid #59429d;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   display: block;
-  margin-left: 10%;
 }
 
-.campo input:focus, .campo textarea:focus{
-  background: #E0E0F8;
+.campo input:focus,
+.campo textarea:focus {
+  background: #e0e0f8;
 }
 
-.botao{
+.botao {
   font-size: 1.2em;
   background: white;
   border: 0;
   margin-bottom: 1em;
   color: black;
   padding: 0.2em 0.6em;
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   position: relative;
   top: 90%;
-  left: 15%;
+  left: 5%;
   margin-right: -50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .botao:hover {
-  background: #CCBBFF;
-  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  background: #ccbbff;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
   text-shadow: none;
 }

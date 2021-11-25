@@ -4,22 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Just-Play-/style/style.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Just Play!</title>
   </head>
   <body>
     <header class="container menu">
       <div class="menu-logo">
-        <a href="#">Just Play!</a>
+        <a href="index.html">Just Play!</a>
       </div>
 
       <nav class="menu-nav">
         <ul>
-          <li>Notícia</li>
-          <li>Jogos</li>
-          <li>Sobre</li>
-          <li>Contato</li>
-          <li>login</li>
+          <li><a href="noticia.html">Notícia</a></li>
+          <li><a href="jogos.html">Jogos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </nav>
     </header>
@@ -27,13 +27,37 @@
     <hr />
 
     <main class="container">
-      <section class="slide">
-        <h2>slide</h2>
-        <a href="#"><img src="/Just-Play-/img/slide.svg" alt="Nintendo" /></a>
-        <div class="circulo">
-          <div></div>
-          <div></div>
-          <div></div>
+      <section class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+
+          <div class="slide atual">
+            <img src="img/slide.svg" alt="Nintendo" />
+          </div>
+
+          <div class="slide">
+            <img src="img/slide-2.svg" alt="Playstation 5" />
+          </div>
+
+          <div class="slide">
+            <img src="img/slide-3.svg" alt="Nintendo" />
+          </div>
+
+          <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+        </div>
+
+        <div class="nav-manual">
+          <label for="radio1" class="manual-btn"></label>
+
+          <label for="radio2" class="manual-btn"></label>
+
+          <label for="radio3" class="manual-btn"></label>
         </div>
       </section>
 
@@ -41,7 +65,7 @@
         <h2>Notícias</h2>
         <div class="secao secao-noticias">
           <a href="#">
-            <img src="/Just-Play-/img/noticia1.svg" alt="Xbox Cloud" />
+            <img src="img/noticia1.svg" alt="Xbox Cloud" />
             <div class="legenda">
               <p>
                 Demanda pelo lançamento do Xbox Cloud Gaming no Brasil superou
@@ -50,7 +74,7 @@
             </div>
           </a>
           <a href="#">
-            <img src="/Just-Play-/img/noticia2.svg" alt="Resident Evil 7" />
+            <img src="img/noticia2.svg" alt="Resident Evil 7" />
             <div class="legenda">
               <p>Resident Evil 7 vendeu mais de 10 milhões de cópias</p>
             </div>
@@ -66,13 +90,13 @@
         <h2>Jogos em destaque</h2>
         <div class="secao secao-destaques">
           <a href="#">
-            <img src="/Just-Play-/img/destaque1.svg" alt="FIFA 2022" />
+            <img src="img/destaque1.svg" alt="FIFA 2022" />
             <div class="legenda">
               <p>Jogue FIFA 2022 ainda hoje com EA PLAY</p>
             </div>
           </a>
           <a href="#">
-            <img src="/Just-Play-/img/destaque2.svg" alt="BATTLEFIELD 2042" />
+            <img src="img/destaque2.svg" alt="BATTLEFIELD 2042" />
             <div class="legenda">
               <p>
                 Saiba mais sobre a história, as pessoas e o mundo que fazem
@@ -93,21 +117,16 @@
       <h3>Redes Socias</h3>
       <div class="redes_social">
         <a href="#"
-          ><img src="/Just-Play-/img/icon-facebook.svg" alt="icon do facebook"
+          ><img src="img/icon-facebook.svg" alt="icon do facebook"
         /></a>
         <a href="#"
-          ><img
-            src="/Just-Play-/img/icon-instagram.svg"
-            alt="icon do instagram"
+          ><img src="img/icon-instagram.svg" alt="icon do instagram"
         /></a>
-        <a href="#"
-          ><img src="/Just-Play-/img/icon-twitter.svg" alt="icon do twitter"
-        /></a>
-        <a href="#"
-          ><img src="/Just-Play-/img/icon_github.svg" alt="icon do github"
-        /></a>
+        <a href="#"><img src="img/icon-twitter.svg" alt="icon do twitter" /></a>
+        <a href="#"><img src="img/icon_github.svg" alt="icon do github" /></a>
       </div>
       <p>Just Play! - Todos os direitos reservados</p>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style/style.css" />
-    <link rel="stylesheet" href="/style/login.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/login.css" />
     <title>Just Play!</title>
   </head>
   <body>
     <header class="container menu">
       <div class="menu-logo">
-        <a href="#">Just Play!</a>
+        <a href="index.html">Just Play!</a>
       </div>
 
       <nav class="menu-nav">
         <ul>
-          <li>Notícia</li>
-          <li>Jogos</li>
-          <li>Sobre</li>
-          <li>Contato</li>
-          <li>login</li>
+          <li><a href="noticia.html">Notícia</a></li>
+          <li><a href="jogos.html">Jogos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="login.html" class="selecionado">Login</a></li>
         </ul>
       </nav>
     </header>
@@ -29,18 +29,30 @@
 
     <main class="container teste">
       <h2>Just Play!</h2>
-        <div>
-          <form>
-              <div>
-                <input placeholder="E-mail" type="email" name="email" id="email" required>
-              </div>
-              <div>
-                <input placeholder="Senha" type="password" name="password" id="password" required>
-              </div>
-            <a href="cadastro.html">Não possui cadastro? Registre-se</a>
-            <button type="submit" >Entre</button>
-          </form>
-        </div>
+      <div>
+        <form>
+          <div>
+            <input
+              placeholder="E-mail"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+          </div>
+          <div>
+            <input
+              placeholder="Senha"
+              type="password"
+              name="password"
+              id="password"
+              required
+            />
+          </div>
+          <a href="cadastro.html">Não possui cadastro? Registre-se</a>
+          <button type="submit">Entre</button>
+        </form>
+      </div>
     </main>
 
     <hr />
@@ -48,19 +60,13 @@
       <h3>Redes Socias</h3>
       <div class="redes_social">
         <a href="#"
-          ><img src="/img/icon-facebook.svg" alt="icon do facebook"
+          ><img src="img/icon-facebook.svg" alt="icon do facebook"
         /></a>
         <a href="#"
-          ><img
-            src="/img/icon-instagram.svg"
-            alt="icon do instagram"
+          ><img src="img/icon-instagram.svg" alt="icon do instagram"
         /></a>
-        <a href="#"
-          ><img src="/img/icon-twitter.svg" alt="icon do twitter"
-        /></a>
-        <a href="#"
-          ><img src="/img/icon_github.svg" alt="icon do github"
-        /></a>
+        <a href="#"><img src="img/icon-twitter.svg" alt="icon do twitter" /></a>
+        <a href="#"><img src="img/icon_github.svg" alt="icon do github" /></a>
       </div>
       <p>Just Play! - Todos os direitos reservados</p>
     </footer>

@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Just-Play-/style/style.css" />
-    <link rel="stylesheet" href="/Just-Play-/style/jogos.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/jogos.css" />
     <title>Just Play!</title>
   </head>
   <body>
     <header class="container menu">
       <div class="menu-logo">
-        <a href="#">Just Play!</a>
+        <a href="index.html">Just Play!</a>
       </div>
 
       <nav class="menu-nav">
         <ul>
-          <li>Notícia</li>
-          <li>Jogos</li>
-          <li>Sobre</li>
-          <li>Contato</li>
-          <li>login</li>
+          <li><a href="noticia.html">Notícia</a></li>
+          <li><a href="jogos.html" class="selecionado">Jogos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </nav>
     </header>
@@ -28,8 +28,117 @@
     <hr />
 
     <main>
-      <section></section>
+      <section class="menu-resp menu-nav-secundario">
+        <h2>Menu menu-nav-secundario</h2>
+        <nav class="navegacao">
+          <ul>
+            <li><a href="#">PLAYSTATION</a></li>
+            <li><a href="#">XBOX</a></li>
+            <li><a href="#">NINTENDO</a></li>
+            <li>
+              <select name="select">
+                <option value="valor">OUTROS</option>
+                <option value="valor1">Sony</option>
+                <option value="valor2">Electronic Arts</option>
+                <option value="valor3">EPIC Games</option>
+                <option value="valor4">Bandai Namco</option>
+                <option value="valor4">Square Enix</option>
+              </select>
+            </li>
+          </ul>
+          <form action="#">
+            <input
+              type="text"
+              name="search"
+              placeholder="PESQUISAR"
+              class="pesquisa"
+            />
+            <button type="submit" class="search-btn">
+              <img src="img/lupa.svg" alt="lupa" />
+            </button>
+          </form>
+        </nav>
+      </section>
+
+      <section class="container">
+        <h2>Jogos</h2>
+        <div class="secao secao-jogos">
+          <a href="#">
+            <img src="img/jogos1.svg" alt="Xbox Cloud" />
+            <div class="legenda">
+              <p>Fifa 22</p>
+            </div>
+          </a>
+
+          <a href="#" class="secao-jogos">
+            <img src="img/jogos2.svg" alt="Resident Evil 7" />
+            <div class="legenda">
+              <p>Assassin's Creed Unity</p>
+            </div>
+          </a>
+
+          <a href="#" class="secao-jogos">
+            <img src="img/jogos3.svg" alt="Grand Theft Auto V" />
+            <div class="legenda">
+              <p>Grand Theft Auto V</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="secao secao-jogos">
+          <a href="#">
+            <img src="img/jogos4.svg" alt="Minicraft" />
+            <div class="legenda">
+              <p>Minicraft</p>
+            </div>
+          </a>
+
+          <a href="comentario.html" class="secao-jogos">
+            <img
+              src="img/jogos5.svg"
+              alt="The Legend of Zelda™: Breath of the Wild"
+            />
+            <div class="legenda">
+              <p>The Legend of Zelda™: Breath of the Wild</p>
+            </div>
+          </a>
+
+          <a href="#" class="secao-jogos">
+            <img src="img/jogos6.svg" alt="Candy Crush Saga" />
+            <div class="legenda">
+              <p>Candy Crush Saga</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="secao secao-jogos">
+          <a href="#">
+            <img src="img/jogos7.svg" alt="Xbox Cloud" />
+            <div class="legenda">
+              <p>DONKEY KONG</p>
+            </div>
+          </a>
+
+          <a href="#" class="secao-jogos">
+            <img src="img/jogos8.svg" alt="Resident Evil 7" />
+            <div class="legenda">
+              <p>NARUTO TO BORUTO: SHINOBI STRIKER</p>
+            </div>
+          </a>
+
+          <a href="#" class="secao-jogos">
+            <img src="img/jogos9.svg" alt="Resident Evil 7" />
+            <div class="legenda">
+              <p>Plants vs. Zombies™ Garden Warfare 2</p>
+            </div>
+          </a>
+        </div>
+      </section>
     </main>
+
+    <div class="btn">
+      <a href="#">Saiba mais</a>
+    </div>
 
     <hr />
     <footer class="social">

@@ -1,0 +1,116 @@
+/* header */
+
+.selecionado::after {
+  content: '';
+  display: block;
+
+  margin: 0.1875rem auto 0 auto;
+  height: 0.21875rem;
+  width: 2.7rem;
+
+  background: #fff;
+}
+
+/* Navegação secundária */
+
+h2 {
+  visibility: hidden;
+  position: relative;
+  margin-bottom: -3.125rem;
+}
+
+.menu-nav-secundario {
+  background-color: #fff;
+}
+
+.navegacao,
+.navegacao form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 2.25rem;
+  color: #000;
+}
+
+.navegacao ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navegacao ul li {
+  padding: 2.125rem;
+}
+
+.navegacao ul li select {
+  font-size: 2.25rem;
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+
+.navegacao a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navegacao a:hover {
+  color: blue;
+}
+
+.navegacao .pesquisa {
+  max-width: 25rem;
+  height: 2.625rem;
+
+  padding-left: 2.5rem;
+}
+
+.search-btn {
+  margin: 0 auto;
+  color: blue;
+  height: 2.625rem;
+  padding-right: 15px;
+}
+
+form input,
+form button {
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+
+form {
+  border: 2px solid #000;
+}
+
+/* imagens */
+
+.secao {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.secao-jogos a div {
+  background-color: rgba(72, 75, 77, 0.9);
+
+  width: 293px;
+  height: 114px;
+
+  position: relative;
+  top: -7.35rem;
+  margin-bottom: -90px;
+}
+
+/* Resposividade */
+@media (max-width: 87.3125rem) {
+  .menu-resp {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 59.6875rem) {
+  .navegacao ul {
+    justify-content: center;
+  }
+}

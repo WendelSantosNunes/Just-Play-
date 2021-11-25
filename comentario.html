@@ -11,16 +11,16 @@
   <body>
     <header class="container menu">
       <div class="menu-logo">
-        <a href="#">Just Play!</a>
+        <a href="index.html">Just Play!</a>
       </div>
 
       <nav class="menu-nav">
         <ul>
-          <li>Notícia</li>
-          <li>Jogos</li>
-          <li>Sobre</li>
-          <li>Contato</li>
-          <li>login</li>
+          <li><a href="noticia.html">Notícia</a></li>
+          <li><a href="jogos.html" class="selecionado">Jogos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </nav>
     </header>
@@ -28,100 +28,122 @@
     <hr />
 
     <main>
-        <section class="menu-resp menu-nav-secundario">
-
-          <h2>Menu menu-nav-secundario</h2>
-          <nav class="navegacao">
-            <ul>
-              <li><a href="#">PLAYSTATION</a></li>
-              <li><a href="#">XBOX</a></li>
-              <li><a href="#">NINTENDO</a></li>
-              <li>
-                <select name="select">
-                  <option value="valor">OUTROS</option>
-                  <option value="valor1">Sony</option>
-                  <option value="valor2">Electronic Arts</option>
-                  <option value="valor3">EPIC Games</option>
-                  <option value="valor4">Bandai Namco</option>
-                  <option value="valor4">Square Enix</option>
-                </select>
-              </li>
-            </ul>
-            <form action="#">
-              <input
-                type="text"
-                name="search"
-                placeholder="PESQUISAR"
-                class="pesquisa"
+      <section class="menu-resp menu-nav-secundario">
+        <h2>Menu menu-nav-secundario</h2>
+        <nav class="navegacao">
+          <ul>
+            <li><a href="#">PLAYSTATION</a></li>
+            <li><a href="#">XBOX</a></li>
+            <li><a href="#">NINTENDO</a></li>
+            <li>
+              <select name="select">
+                <option value="valor">OUTROS</option>
+                <option value="valor1">Sony</option>
+                <option value="valor2">Electronic Arts</option>
+                <option value="valor3">EPIC Games</option>
+                <option value="valor4">Bandai Namco</option>
+                <option value="valor4">Square Enix</option>
+              </select>
+            </li>
+          </ul>
+          <form action="#">
+            <input
+              type="text"
+              name="search"
+              placeholder="PESQUISAR"
+              class="pesquisa"
+            />
+            <button type="submit" class="search-btn">
+              <img
+                src="
+                img/lupa.svg"
+                alt="lupa"
               />
-              <button type="submit" class="search-btn">
-                <img src="
-                img/lupa.svg" alt="lupa" />
-              </button>
-            </form>
-          </nav>
-        </section>
+            </button>
+          </form>
+        </nav>
+      </section>
 
+      <img class="image" src="img/zelda.svg" />
+
+      <section class="container">
         <section class="campo">
+          <h1>The Legend of Zelda: Breath of the Wild</h1>
+          <br />
 
-          <img class="image"src="img/zelda.svg">
-
-          <h1>The Legend of Zelda: Breath of the Wild</h1><br>
-
-          <p>Esqueça tudo que você sabe sobre os jogos da série The Legend of Zelda. Entre em um mundo de descobertas, exploração e aventura em The Legend of Zelda: Breath of the Wild, o novo jogo da famosa série que veio para romper barreiras. Viaje pelos vastos campos, florestas e montanhas enquanto descobre o que aconteceu com o reino de Hyrule nesta deslumbrante aventura a céu aberto. E agora no Nintendo Switch, a sua jornada tem mais liberdade do que nunca. Leve o seu console para qualquer lugar e viva aventuras na pele de Link da maneira que quiser.</p>
-
+          <p>
+            Esqueça tudo que você sabe sobre os jogos da série The Legend of
+            Zelda. Entre em um mundo de descobertas, exploração e aventura em
+            The Legend of Zelda: Breath of the Wild, o novo jogo da famosa série
+            que veio para romper barreiras. Viaje pelos vastos campos, florestas
+            e montanhas enquanto descobre o que aconteceu com o reino de Hyrule
+            nesta deslumbrante aventura a céu aberto. E agora no Nintendo
+            Switch, a sua jornada tem mais liberdade do que nunca. Leve o seu
+            console para qualquer lugar e viva aventuras na pele de Link da
+            maneira que quiser.
+          </p>
         </section>
 
         <table border="1" style="border-radius: 5px">
-            <tr>
-                <td>Ano Lançamento</td>
-                <td>2017</td>
-            </tr>
-            <tr>
-                <td>Total de Jogadores</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>Publicado por:</td>
-                <td>Nitendo</td>
-            </tr>
+          <tr>
+            <td>Ano Lançamento</td>
+            <td>2017</td>
+          </tr>
+          <tr>
+            <td>Total de Jogadores</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Publicado por:</td>
+            <td>Nitendo</td>
+          </tr>
         </table>
 
-        <br><hr>
+        <br />
+        <hr />
 
         <section class="campo-comentario">
+          <div class="nova1">
+            <section class="nova">
+              <img class="perfil-1" src="img/perfil.png" alt="" />
+              <div class="perfil-comentario-1">
+                <input
+                  class="input"
+                  placeholder="Comente aqui"
+                  type="text"
+                  name="Nome"
+                  value=""
+                  required
+                />
+                <br />
+                <button class="button" type="button" name="button">
+                  Comente
+                </button>
+              </div>
+            </section>
 
-          <section>
-            <img class="perfil-1" src="img/perfil.png" alt="">
-            <div class="perfil-comentario-1">
-              <input class="input"placeholder="Comente aqui" type="text" name="Nome" value="" required>
-              <br>
-              <button class="button" type="button" name="button">Comente</button>
-            </div>
-          </section>
+            <section class="nova">
+              <img class="perfil-2" src="img/perfil.png" alt="" />
+              <div class="perfil-comentario-2">
+                <label for="">Wendel Nunes</label>
+                <br /><br />
+                <label for=""
+                  >Ótimo jogo! Eu passei mais de 100 horas jogando.</label
+                >
+              </div>
+            </section>
 
-          <section>
-            <img class="perfil-2" src="img/perfil.png" alt="">
-            <div class="perfil-comentario-2">
-              <label for="">Wendel Nunes</label>
-              <br><br>
-              <label for="">Gosto muito do jogo!</label>
-            </div>
-          </section>
-
-          <section>
-            <img class="perfil-3" src="img/perfil.png" alt="">
-            <div class="perfil-comentario-3">
-              <label for="">Romanov</label>
-              <br><br>
-              <label for="">Melhor jogo!</label>
-            </div>
-
-          </section>
+            <section class="nova">
+              <img class="perfil-3" src="img/perfil.png" alt="" />
+              <div class="perfil-comentario-3">
+                <label for="">Romanov</label>
+                <br /><br />
+                <label for="">Esse é jogo do ano!</label>
+              </div>
+            </section>
+          </div>
         </section>
-
-
-
+      </section>
     </main>
 
     <hr />
@@ -132,16 +154,10 @@
           ><img src="img/icon-facebook.svg" alt="icon do facebook"
         /></a>
         <a href="#"
-          ><img
-            src="img/icon-instagram.svg"
-            alt="icon do instagram"
+          ><img src="img/icon-instagram.svg" alt="icon do instagram"
         /></a>
-        <a href="#"
-          ><img src="img/icon-twitter.svg" alt="icon do twitter"
-        /></a>
-        <a href="#"
-          ><img src="img/icon_github.svg" alt="icon do github"
-        /></a>
+        <a href="#"><img src="img/icon-twitter.svg" alt="icon do twitter" /></a>
+        <a href="#"><img src="img/icon_github.svg" alt="icon do github" /></a>
       </div>
       <p>Just Play! - Todos os direitos reservados</p>
     </footer>

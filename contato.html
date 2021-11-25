@@ -11,62 +11,77 @@
   <body>
     <header class="container menu">
       <div class="menu-logo">
-        <a href="#">Just Play!</a>
+        <a href="index.html">Just Play!</a>
       </div>
 
       <nav class="menu-nav">
         <ul>
-          <li>Notícia</li>
-          <li>Jogos</li>
-          <li>Sobre</li>
-          <li>Contato</li>
-          <li>login</li>
+          <li><a href="noticia.html">Notícia</a></li>
+          <li><a href="jogos.html">Jogos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html" class="selecionado">Contato</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </nav>
     </header>
 
     <hr />
 
-    <main class="main">
-        <div class="titulo">
-          <h1 id="titulo" class="">Fale Conosco!</h1>
-        </div>
+    <main class="main container">
+      <div class="titulo">
+        <h1 id="titulo" class="">Fale Conosco!</h1>
+      </div>
 
-        <div>
-            <p id="subtitulo" class="subtitulo">Preencha o formulário abaixo e em breve responderemos sua mensagem.</p>
-            <br>
-        </div>
+      <div>
+        <p id="subtitulo" class="subtitulo">
+          Preencha o formulário abaixo e em breve responderemos sua mensagem.
+        </p>
+        <br />
+      </div>
 
-        <form>
-
-          <fieldset class="grupo">
-
-              <div class="campo">
-                  <label class="label"><strong>Nome</strong></label><br>
-                  <input type="text" name="nome" placeholder="Nome" id="nome" required>
-              </div>
-
-              <div class="campo">
-
-                <label class="label"><strong>Email</strong></label><br>
-                <input type="email" name="email" placeholder="Email" value="" class="" required>
-
-              </div>
-
-          </fieldset>
-
+      <form>
+        <fieldset class="grupo">
           <div class="campo">
-                <br>
-                <label for="experiencia"><strong>Mensagem </strong></label><br>
-                <textarea rows="6" id="experiencia" name="experiencia" required></textarea>
+            <label class="label"><strong>Nome</strong></label
+            ><br />
+            <input
+              type="text"
+              name="nome"
+              placeholder="Nome"
+              id="nome"
+              required
+            />
           </div>
 
-          <br>
+          <div class="campo">
+            <label class="label"><strong>Email</strong></label
+            ><br />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              value=""
+              class=""
+              required
+            />
+          </div>
+        </fieldset>
 
-          <button class="botao" type="submit" onsubmit="">Enviar ⇾</button>
+        <div class="campo">
+          <br />
+          <label for="experiencia"><strong>Mensagem </strong></label><br />
+          <textarea
+            rows="6"
+            id="experiencia"
+            name="experiencia"
+            required
+          ></textarea>
+        </div>
 
-        </form>
+        <br />
 
+        <button class="botao" type="submit" onsubmit="">Enviar ⇾</button>
+      </form>
     </main>
 
     <hr />
@@ -77,16 +92,10 @@
           ><img src="img/icon-facebook.svg" alt="icon do facebook"
         /></a>
         <a href="#"
-          ><img
-            src="img/icon-instagram.svg"
-            alt="icon do instagram"
+          ><img src="img/icon-instagram.svg" alt="icon do instagram"
         /></a>
-        <a href="#"
-          ><img src="img/icon-twitter.svg" alt="icon do twitter"
-        /></a>
-        <a href="#"
-          ><img src="img/icon_github.svg" alt="icon do github"
-        /></a>
+        <a href="#"><img src="img/icon-twitter.svg" alt="icon do twitter" /></a>
+        <a href="#"><img src="img/icon_github.svg" alt="icon do github" /></a>
       </div>
       <p>Just Play! - Todos os direitos reservados</p>
     </footer>

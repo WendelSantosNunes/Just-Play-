@@ -1,6 +1,18 @@
-*{
+* {
   font-style: Roboto;
 }
+
+.selecionado::after {
+  content: '';
+  display: block;
+
+  margin: 0.1875rem auto 0 auto;
+  height: 0.21875rem;
+  width: 2.7rem;
+
+  background: #fff;
+}
+
 h2 {
   visibility: hidden;
   position: relative;
@@ -72,121 +84,90 @@ form {
   border: 2px solid #000;
 }
 
-.image{
-  margin-top:2%;
+.image {
+  margin-top: 2%;
   display: flex;
   margin-bottom: 2%;
 }
 
-.campo{
-  margin-top:2%;
+.campo {
+  margin-top: 2%;
   margin-left: 10%;
   margin-right: 10%;
   justify-content: center;
-
 }
 
-table{
-  margin-top:2%;
+table {
+  margin-top: 2%;
   margin-left: 40%;
   margin-right: 30%;
 }
-th, td {
+th,
+td {
   border-bottom: 1px solid #ddd;
   padding: 15px;
   text-align: left;
 }
 
-.campo-comentario{
+.campo-comentario {
   background-color: white;
-  width: 700px;
-  margin-top: 30px;
-  justify-content: center;
-  margin-right:auto;
-  margin-left:auto;
-  left: 20%;
-  margin-bottom: 30px;
-  padding: 15% 15%;
+  width: 980px;
+  height: 400px;
+  margin: 10px;
   border-radius: 10px;
 }
 
-.perfil-1{
-  position: absolute;
+.campo-comentario img {
+  margin: 0;
+}
+
+.nova {
+  display: flex;
+  padding: 20px;
+}
+
+.nova1 {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.perfil-1 {
   border-radius: 50px;
   width: 70px;
   height: 70px;
-  left: 350px;
-  top: 1100px;
 }
 
-.perfil-2{
-  position: absolute;
+.perfil-2 {
   border-radius: 50px;
   width: 70px;
   height: 70px;
-  left: 350px;
-  top: 1250px;
 }
 
-.perfil-3{
-  position: absolute;
+.perfil-3 {
   border-radius: 50px;
   width: 70px;
   height: 70px;
-  left: 350px;
-  top: 1350px;
 }
 
-.perfil-comentario-1{
-  position: absolute;
-  border-radius: 50px;
-  width: 70px;
-  height: 70px;
-  left: 450px;
-  top: 1100px;
+.perfil-comentario-1 {
+  border-radius: 10px;
 }
 
-.perfil-comentario-2{
-  position: absolute;
-  border-radius: 50px;
-  width: 700px;
-  height: 70px;
-  left: 450px;
-  top: 1260px;
-}
-
-.perfil-comentario-3{
-  position: absolute;
-  border-radius: 50px;
-  width: 700px;
-  height: 70px;
-  left: 450px;
-  top: 1360px;
-}
-
-label{
+label {
   color: black;
 }
 
-#posicao-1{
-  background: #C4C4C4;
-  border-radius: 50px;
-  margin-left:5%;
-  margin-top: 2%;
-  margin-bottom: 100%;
-}
-
-.campo{
-  weight: auto;
+.campo {
+  width: auto;
   bottom: 50%;
 }
 
-.input{
+.input {
   box-sizing: border-box;
   text-align: left;
-  width:400px;
-  display:block;
-  border-bottom: 2px solid #black;
+  width: 400px;
+  display: block;
+  border-bottom: 2px solid black;
   padding: 10px;
 }
 
